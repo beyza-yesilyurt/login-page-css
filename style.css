@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(pexels-george-desipris-889545.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-box{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.507);
+    box-shadow: 0 0 20px 9px #a699b81e;
+    border-radius: 35px;
+    margin: 9% auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ffffff;
+    border-radius: 35px;
+}
+.toggle-btn{
+    position: relative;
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ffffff, #5d388d);
+    border-radius: 35px;
+    transition: .5s;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons lottie-player{
+    width: 60px;
+    margin: 0px 12px;
+    cursor: pointer;
+
+}
+
+.input-group{
+    position: absolute;
+    margin-left: 35px;
+    top: 180px;
+    width: 250px;
+    transition: .5s;
+    
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    margin: 5px 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(228, 198, 230, 0.507);
+    outline: none;
+    text-align: center;
+}
+.submit-btn{
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to right, #ffffff, #5d388d );
+    border-radius: 35px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    outline: none;
+    
+
+}
+
+.input-group a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ddcbdd;
+    margin: 30px 10px 30px 0px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Login{
+    left: 50px;
+
+}
+
+#Register{
+    left: 450px;
+}
