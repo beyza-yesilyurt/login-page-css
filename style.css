@@ -18,13 +18,13 @@
 
 .form-box{
     width: 400px;
-    height: 500px;
+    height: 450px;
     position: relative;
     background: rgba(0, 0, 0, 0.507);
     box-shadow: 0 0 20px 9px #a699b81e;
     border-radius: 35px;
-    margin: 9% auto;
-    padding: 10px;
+    margin: 5% auto;
+    padding: 5px;
     overflow: hidden;
 }
 
